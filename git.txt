@@ -1,0 +1,24 @@
+﻿echo "# gulp load plugins practice" >> README.md
+
+git init
+git config user.email maksym.izmailov.lv@gmail.com
+git config user.name "MaksymI"
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:MaksymI/gulp_practice.git
+
+git push -u origin master
+
+git remote -v
+
+
+git rm -r --cached --ignore-unmatch images
+git rm -r --cached --ignore-unmatch app/fonts
+
+git diff --stat --cached origin/master
+
+git pull origin master - Если мы правим код с нескольких компьютеров,
+ то перед началом работы не забываем «накатить» в локальный репозиторий
+ последнюю версию кода.
+
+

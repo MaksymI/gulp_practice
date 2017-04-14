@@ -1,0 +1,13 @@
+build
+images
+node_modules
+app/libs
+app/fonts
+app/css
+dist
+.git
+pwd.txt
+
+
+/**/*.psd
+/**/Thumbs.db

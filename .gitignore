@@ -1,10 +1,12 @@
-build
-images
-node_modules
-app/libs
-app/fonts
-app/css
-dist
+/**/app
+/**/build
+/**/js
+/**/images
+/**/node_modules
+/**/libs
+/**/fonts
+/**/css
+/**/dist
 .git
 pwd.txt
 
